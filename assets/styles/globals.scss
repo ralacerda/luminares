@@ -1,0 +1,70 @@
+@use "./variables";
+@use "./animations";
+@use "./utils";
+@use "./reset";
+
+body {
+  line-height: 1.6;
+  font-family: var(--font-body);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+  // font-family: var(--font-display);
+  font-weight: 400;
+}
+
+a {
+  font-family: var(--font-display);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: var(--blue);
+
+  & a {
+    color: var(--blue);
+    font-weight: 300;
+    padding: 0 1.2rem;
+  }
+}
+
+p,
+li {
+  max-width: 60ch;
+  font-size: 1.3rem;
+}
+
+.page-title {
+  margin-top: -7.1rem;
+  font-size: 36px;
+  color: var(--white);
+  isolation: isolate;
+  margin-bottom: 3rem;
+  padding-left: 1.1rem;
+}
+
+.prose {
+  width: 50vw;
+  width: clamp(16rem, 90vw, 50rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  & p:first-of-type::first-letter {
+    font-size: 62px;
+    float: left;
+    line-height: 1;
+    padding-top: 12.8px;
+    padding-right: 4px;
+    color: var(--blue);
+  }
+}

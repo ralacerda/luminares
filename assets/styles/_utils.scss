@@ -1,0 +1,11 @@
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-blue {
+  color: var(--blue);
+}
