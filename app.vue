@@ -76,7 +76,7 @@ header {
   display: grid;
   transition: grid-template-columns 600ms ease-in-out,
     grid-template-rows 600ms ease-in-out;
-  height: calc(100vh - 20rem);
+  height: clamp(50vh, 300px + 20vw, 70vh);
   grid-template-columns: 4fr 5fr;
   grid-template-rows: 5fr 4fr;
   gap: 0.1rem;
@@ -166,7 +166,7 @@ header {
   min-height: 100vh;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 720px) {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
