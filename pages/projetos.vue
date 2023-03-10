@@ -47,11 +47,8 @@
 <style lang="scss">
 .index {
   float: left;
-  margin-left: -6rem;
-  margin-right: 2rem;
-  margin-bottom: 1.5rem;
+  margin: 12px 2rem 1.5rem -6rem;
   background-color: #faf9f8;
-  margin-top: 12px;
   padding: 1.2rem 2.4rem 1.2rem 1.2rem;
   line-height: 2;
 
@@ -68,6 +65,14 @@
   & li {
     font-size: 1rem;
     color: var(--blue);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .index {
+    float: none;
+    margin: 0;
+    width: fit-content;
   }
 }
 </style>
