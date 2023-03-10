@@ -1,1 +1,3 @@
-<template><footer>Instagram</footer></template>
+<template>
+  <div></div>
+</template>
