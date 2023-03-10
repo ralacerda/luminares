@@ -57,6 +57,7 @@ const page = computed(() => {
     </div>
   </div>
   <NuxtPage />
+  <footer></footer>
 </template>
 
 <style lang="scss">
@@ -71,20 +72,20 @@ header {
   z-index: 5;
 }
 
+footer {
+  min-height: var(--footer-height);
+  margin-top: 5vh;
+}
+
 .grid {
   overflow: clip;
   display: grid;
   transition: grid-template-columns 600ms ease-in-out,
     grid-template-rows 600ms ease-in-out;
-  height: clamp(50vh, 300px + 20vw, 70vh);
+  height: var(--grid-height);
   grid-template-columns: 4fr 5fr;
   grid-template-rows: 5fr 4fr;
-  gap: 0.1rem;
   background-color: var(--black);
-
-  &:not([data-page="index"]) {
-    gap: 0;
-  }
 
   &[data-page="sobre"] {
     grid-template-columns: 1fr 0fr;
@@ -166,7 +167,7 @@ header {
   min-height: 100vh;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 990px) {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
