@@ -5,7 +5,7 @@
       <p>Transformando espaços</p>
     </div>
 
-    <div class="prose flow">
+    <div class="prose flow content">
       <div class="index">
         <span> Lista de projetos </span>
         <ul>

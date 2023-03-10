@@ -4,7 +4,7 @@
       <h2>Sobre nós</h2>
       <p>Paixão e expertise</p>
     </div>
-    <div class="prose flow">
+    <div class="prose flow content">
       <p>
         <strong>Há mais</strong> de 10 anos, a Luminares tem se dedicado a criar
         espaços inspiradores e funcionais para nossos clientes na área de

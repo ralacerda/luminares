@@ -4,7 +4,7 @@
       <h2>Contato</h2>
       <p>Vamos trabalhar juntos</p>
     </div>
-    <div class="prose flow">
+    <div class="prose flow content">
       <p>
         <strong>Há muitas maneiras </strong>de entrar em contato conosco. Para
         fazer uma consulta, solicitar uma proposta ou obter mais informações
