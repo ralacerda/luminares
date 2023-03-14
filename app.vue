@@ -121,7 +121,7 @@ footer {
   &#sobre {
     background-position: 75% 45%;
     background-image: linear-gradient(to top, #000000bb 30%, transparent 60%),
-      url("assets/images/office2.jpg");
+      url("images/office2.jpg");
 
     &[data-page="sobre"] {
       outline-offset: var(--outline-offset);
@@ -133,7 +133,7 @@ footer {
     grid-row: span 2;
     background-position: 30% 20%;
     background-image: linear-gradient(to top, #000000bb 10%, transparent 50%),
-      url("assets/images/bird.jpg");
+      url("images/bird.jpg");
 
     &[data-page="projetos"] {
       outline-offset: -0.6rem;
@@ -144,7 +144,7 @@ footer {
   &#contato {
     background-position: 30% 45%;
     background-image: linear-gradient(to top, #000000bb 15%, transparent 60%),
-      url("assets/images/graydock.jpg");
+      url("images/graydock.jpg");
 
     &[data-page="contato"] {
       outline-offset: var(--outline-offset);

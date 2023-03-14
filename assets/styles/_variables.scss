@@ -7,7 +7,9 @@
   --black: #070600;
   --red: #b6244f;
 
-  --grid-size: 80;
+  --grid-height: clamp(50vh, 300px + 20vw, 70vh);
+  --header-height: 4rem;
+  --footer-height: calc(100vh - var(--grid-height) - var(--header-height));
 }
 
 * {
