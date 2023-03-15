@@ -25,10 +25,8 @@
 footer {
   background-color: var(--black);
   color: var(--white);
-  outline: 1px solid var(--white);
-  outline-offset: -0.4rem;
   gap: 2rem;
-  padding: 0.8rem;
+  padding-block: 3rem;
   margin-top: 5vh;
   justify-items: start;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
