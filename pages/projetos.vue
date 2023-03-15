@@ -53,7 +53,7 @@
 .index {
   float: left;
   margin: 12px 2rem 1.5rem -6rem;
-  background-color: #faf9f8;
+  background-color: white;
   padding: 1.2rem 2.4rem 1.2rem 1.2rem;
   line-height: 2;
 
