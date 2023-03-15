@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+      <Title>Luminares Arq - Projetos</Title>
+    </Head>
     <div class="page-title">
       <h2>Projetos</h2>
       <p>Transformando espaços</p>

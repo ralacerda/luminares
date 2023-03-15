@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+      <Title>Luminares Arq - Sobre nós</Title>
+    </Head>
     <div class="page-title">
       <h2>Sobre nós</h2>
       <p>Paixão e expertise</p>

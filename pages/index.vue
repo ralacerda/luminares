@@ -1,5 +1,8 @@
 <template>
   <div class="index-intro">
+    <Head>
+      <Title>Luminares Arq</Title>
+    </Head>
     <div class="prose flow content">
       <p>
         <strong>Descubra</strong> como transformamos espaços em lugares
