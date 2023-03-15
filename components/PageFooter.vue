@@ -20,10 +20,12 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
         links abaixo.
       </p>
       <p class="socials">
-        <a href="#"><GithubIcon /></a>
-        <a href="#"><LinkedinIcon /></a>
-        <a href="#"><TwitterIcon /></a>
-        <a href="#"><MastodonIcon /></a>
+        <a href="https://github.com/ralacerda"><GithubIcon /></a>
+        <a href="https://www.linkedin.com/in/renato-ac-lacerda/"
+          ><LinkedinIcon
+        /></a>
+        <a href="https://twitter.com/renatoaclacerda"><TwitterIcon /></a>
+        <a href="https://hachyderm.io/@renato"><MastodonIcon /></a>
       </p>
     </div>
   </footer>
@@ -33,7 +35,6 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
 footer {
   background-color: var(--black);
   color: var(--white);
-  gap: 2rem;
   padding-block: 3rem;
   margin-top: 5vh;
   justify-items: start;
