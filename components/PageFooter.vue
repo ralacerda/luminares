@@ -1,3 +1,10 @@
+<script setup>
+import GithubIcon from "~icons/simple-icons/github";
+import LinkedinIcon from "~icons/simple-icons/linkedin";
+import TwitterIcon from "~icons/simple-icons/twitter";
+import MastodonIcon from "~icons/simple-icons/mastodon";
+</script>
+
 <template>
   <footer>
     <div class="content flow">
@@ -9,13 +16,14 @@
         são puramente fictícios e não correspondem a uma empresa real. Todo o
         conteúdo apresentado aqui é apenas para fins de ilustração e não deve
         ser considerado como verdadeiro ou representativo de qualquer empresa
-        existente.
+        existente. Você pode ler mais sobre este projeto e seu desenvolvedor nos
+        links abaixo.
       </p>
       <p class="socials">
-        Para saber mais sobre este projeto e seu desenvolvedor:
-        <a href="#">Linkedin</a>
-        <a href="#">Github</a>
-        <a href="#">Portfólio</a>
+        <a href="#"><GithubIcon /></a>
+        <a href="#"><LinkedinIcon /></a>
+        <a href="#"><TwitterIcon /></a>
+        <a href="#"><MastodonIcon /></a>
       </p>
     </div>
   </footer>
@@ -29,20 +37,27 @@ footer {
   padding-block: 3rem;
   margin-top: 5vh;
   justify-items: start;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 
-  & p,
-  & a:any-link {
+  & p {
     max-width: 85ch;
     font-size: 0.85rem;
     font-family: var(--font-body);
-    color: var(--white);
-    width: max-content;
-    display: block;
   }
+}
 
-  & a:any-link:hover {
-    text-decoration: underline;
+.socials {
+  font-size: 1rem;
+  display: flex;
+  gap: 0.8rem;
+
+  & :any-link {
+    transition: 200ms;
+
+    color: var(--white);
+
+    &:hover {
+      color: var(--blue);
+    }
   }
 }
 </style>
