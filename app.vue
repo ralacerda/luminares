@@ -13,6 +13,17 @@ const pageKey = {
 const page = computed(() => {
   return pageKey[route.fullPath];
 });
+
+useServerSeoMeta({
+  title: "Luminares Arq",
+  ogTitle: "Luminares Arq",
+  description:
+    "Este é o website de uma empresa fictícia de arquitetura chamada Luminares Arq.",
+  ogDescription:
+    "Este é o website de uma empresa fictícia de arquitetura chamada Luminares Arq.",
+  ogImage: "https://luminares-arq.netlify.app/meta.png",
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <template>
