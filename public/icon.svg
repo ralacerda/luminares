@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.658779"
+   height="47.981682"
+   viewBox="0 0 12.874302 12.695153"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="lumilogo.svg"
+   inkscape:export-xdpi="64.024437"
+   inkscape:export-ydpi="64.024437"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1932">
+      <stop
+         style="stop-color:#c4cfdc;stop-opacity:1;"
+         offset="0.00342545"
+         id="stop1928" />
+      <stop
+         style="stop-color:#b4c2d3;stop-opacity:1;"
+         offset="1"
+         id="stop1930" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1932"
+       id="linearGradient3388"
+       gradientUnits="userSpaceOnUse"
+       x1="109.13651"
+       y1="148.9984"
+       x2="112.62685"
+       y2="148.9984"
+       gradientTransform="matrix(3.6372315,0,0,3.6372315,-396.95234,-535.59169)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.002422,-0.00241432)">
+    <rect
+       style="fill:url(#linearGradient3388);fill-opacity:1;stroke-width:6.28121"
+       id="rect1836"
+       width="12.695153"
+       height="12.695153"
+       x="0.0024219975"
+       y="0.0024143215"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.4342px;font-family:'Tilt Warp';-inkscape-font-specification:'Tilt Warp';fill:#264f7e;fill-opacity:0.983304;stroke-width:11.626"
+       x="3.0687919"
+       y="10.701933"
+       id="text236"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';fill:#264f7e;fill-opacity:0.983304;stroke-width:11.626"
+         x="3.0687919"
+         y="10.701933">L</tspan></text>
+  </g>
+</svg>

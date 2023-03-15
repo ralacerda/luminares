@@ -17,6 +17,8 @@ const page = computed(() => {
 
 <template>
   <Head>
+    <Link rel="icon" href="/favicon.ico" sizes="any" />
+    <Link rel="icon" href="/icon.svg" type="image/svg+xml" />
     <Link rel="preconnect" href="https://fonts.googleapis.com" />
     <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <Link
