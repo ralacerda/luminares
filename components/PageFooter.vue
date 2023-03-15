@@ -20,12 +20,18 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
         links abaixo.
       </p>
       <p class="socials">
-        <a href="https://github.com/ralacerda"><GithubIcon /></a>
-        <a href="https://www.linkedin.com/in/renato-ac-lacerda/"
+        <a href="https://github.com/ralacerda" target="_blank"
+          ><GithubIcon
+        /></a>
+        <a href="https://www.linkedin.com/in/renato-ac-lacerda/" target="_blank"
           ><LinkedinIcon
         /></a>
-        <a href="https://twitter.com/renatoaclacerda"><TwitterIcon /></a>
-        <a href="https://hachyderm.io/@renato"><MastodonIcon /></a>
+        <a href="https://twitter.com/renatoaclacerda" target="_blank"
+          ><TwitterIcon
+        /></a>
+        <a href="https://hachyderm.io/@renato" target="_blank"
+          ><MastodonIcon
+        /></a>
       </p>
     </div>
   </footer>
