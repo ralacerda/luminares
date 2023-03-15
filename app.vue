@@ -30,16 +30,6 @@ useServerSeoMeta({
   <Head>
     <Link rel="icon" href="/favicon.ico" sizes="any" />
     <Link rel="icon" href="/icon.svg" type="image/svg+xml" />
-    <Link rel="preconnect" href="https://fonts.googleapis.com" />
-    <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <Link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
-      rel="stylesheet"
-    />
-    <Link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
   </Head>
   <header id="header">
     <h1>
