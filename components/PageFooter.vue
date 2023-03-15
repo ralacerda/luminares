@@ -19,32 +19,40 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
         existente. Você pode ler mais sobre este projeto e seu desenvolvedor nos
         links abaixo.
       </p>
-      <p class="socials">
-        <a
-          href="https://github.com/ralacerda"
-          target="_blank"
-          aria-label="Github"
-          ><GithubIcon
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/renato-ac-lacerda/"
-          target="_blank"
-          aria-label="Linkedin"
-          ><LinkedinIcon
-        /></a>
-        <a
-          href="https://twitter.com/renatoaclacerda"
-          target="_blank"
-          aria-label="Twitter"
-          ><TwitterIcon
-        /></a>
-        <a
-          href="https://hachyderm.io/@renato"
-          target="_blank"
-          aria-label="Mastodon"
-          ><MastodonIcon
-        /></a>
-      </p>
+      <ul class="socials">
+        <li>
+          <a
+            href="https://github.com/ralacerda"
+            target="_blank"
+            aria-label="Github"
+            ><GithubIcon
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/renato-ac-lacerda/"
+            target="_blank"
+            aria-label="Linkedin"
+            ><LinkedinIcon
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/renatoaclacerda"
+            target="_blank"
+            aria-label="Twitter"
+            ><TwitterIcon
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://hachyderm.io/@renato"
+            target="_blank"
+            aria-label="Mastodon"
+            ><MastodonIcon
+          /></a>
+        </li>
+      </ul>
     </div>
   </footer>
 </template>
@@ -65,13 +73,13 @@ footer {
 }
 
 .socials {
-  font-size: 1rem;
   display: flex;
   gap: 0.8rem;
+  list-style: none;
 
   & :any-link {
+    font-size: 1rem;
     transition: 200ms;
-
     color: var(--white);
 
     &:hover {
