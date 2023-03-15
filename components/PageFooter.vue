@@ -41,7 +41,7 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
         <a
           href="https://hachyderm.io/@renato"
           target="_blank"
-          arial-label="Mastodon"
+          aria-label="Mastodon"
           ><MastodonIcon
         /></a>
       </p>
