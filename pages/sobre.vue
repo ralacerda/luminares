@@ -43,6 +43,8 @@
         trabalhar com você em seu próximo projeto de design e ajudá-lo a criar o
         espaço dos seus sonhos.
       </p>
+      <LinkHome />
     </div>
+    <PageFooter />
   </div>
 </template>

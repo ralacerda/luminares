@@ -31,6 +31,8 @@
         últimas tendências em design de interiores e arquitetura. Agradecemos
         pelo seu interesse na Luminares e aguardamos sua mensagem.
       </p>
+      <LinkHome />
     </div>
+    <PageFooter />
   </div>
 </template>

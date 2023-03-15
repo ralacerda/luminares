@@ -40,7 +40,9 @@
         nossos clientes para garantir que cada projeto atenda às suas
         necessidades e gostos pessoais.
       </p>
+      <LinkHome />
     </div>
+    <PageFooter />
   </div>
 </template>
 

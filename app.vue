@@ -28,7 +28,7 @@ const page = computed(() => {
       rel="stylesheet"
     />
   </Head>
-  <header>
+  <header id="header">
     <h1>
       <NuxtLink to="/" class="text-blue">Luminares Arq</NuxtLink>
     </h1>
@@ -57,7 +57,6 @@ const page = computed(() => {
     </div>
   </div>
   <NuxtPage />
-  <footer></footer>
 </template>
 
 <style lang="scss">
@@ -70,11 +69,6 @@ header {
   box-shadow: 0px 4.7px 5.3px rgba(0, 0, 0, 0.113),
     0px 15.6px 17.9px rgba(0, 0, 0, 0.167), 0px 70px 80px rgba(0, 0, 0, 0.28);
   z-index: 5;
-}
-
-footer {
-  min-height: var(--footer-height);
-  margin-top: 5vh;
 }
 
 .grid {
