@@ -36,6 +36,10 @@ h1 {
   }
 }
 
+a:any-link {
+  color: var(--blue);
+}
+
 p,
 li {
   max-width: 60ch;
