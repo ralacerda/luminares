@@ -117,7 +117,7 @@ header {
   &#sobre {
     background-position: 75% 45%;
     background-image: linear-gradient(to top, #000000bb 30%, transparent 60%),
-      url("images/office2.jpg");
+      var(--background-image);
 
     &[data-page="sobre"] {
       outline-offset: var(--outline-offset);
@@ -129,7 +129,7 @@ header {
     grid-row: span 2;
     background-position: 30% 20%;
     background-image: linear-gradient(to top, #000000bb 10%, transparent 50%),
-      url("images/bird.jpg");
+      var(--background-image);
 
     &[data-page="projetos"] {
       outline-offset: -0.6rem;
@@ -140,11 +140,43 @@ header {
   &#contato {
     background-position: 30% 45%;
     background-image: linear-gradient(to top, #000000bb 15%, transparent 60%),
-      url("images/graydock.jpg");
+      var(--background-image);
 
     &[data-page="contato"] {
       outline-offset: var(--outline-offset);
       outline: 1px solid #ffffff;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card {
+    &#sobre {
+      --background-image: url("images/office2-small.webp");
+    }
+
+    &#projetos {
+      --background-image: url("images/bird-small.webp");
+    }
+
+    &#contato {
+      --background-image: url("images/graydock-small.webp");
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .card {
+    &#sobre {
+      --background-image: url("images/office2.webp");
+    }
+
+    &#projetos {
+      --background-image: url("images/bird.webp");
+    }
+
+    &#contato {
+      --background-image: url("images/graydock.webp");
     }
   }
 }
