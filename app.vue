@@ -187,7 +187,7 @@ header {
   display: flex;
   color: var(--white);
   inset: 0;
-  align-items: end;
+  align-items: flex-end;
   padding: 0 0.8rem 0rem;
   font-size: 48px;
 }
