@@ -116,7 +116,7 @@ header {
   }
 
   &#sobre {
-    background-position: 75% 45%;
+    background-position: 65% 45%;
     background-image: linear-gradient(to top, #000000bb 30%, transparent 60%),
       var(--background-image);
 
