@@ -189,7 +189,7 @@ header {
   inset: 0;
   align-items: flex-end;
   padding: 0 0.8rem 0rem;
-  font-size: 48px;
+  font-size: var(--size-5);
 }
 
 #__nuxt {

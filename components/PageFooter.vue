@@ -67,7 +67,7 @@ footer {
 
   & p {
     max-width: 85ch;
-    font-size: 0.85rem;
+    font-size: var(--size-0);
     font-family: var(--font-body);
   }
 }
@@ -78,7 +78,7 @@ footer {
   list-style: none;
 
   & :any-link {
-    font-size: 1rem;
+    font-size: var(--size-1);
     transition: 200ms;
     color: var(--white);
 

@@ -60,7 +60,7 @@
   & span {
     margin-bottom: 0.4rem;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: var(--size-2);
   }
 
   & ul {
@@ -68,7 +68,7 @@
   }
 
   & li {
-    font-size: 1rem;
+    font-size: var(--size-1);
     color: var(--blue);
   }
 }

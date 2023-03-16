@@ -27,7 +27,7 @@ a {
 
 h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: var(--size-4);
   color: var(--blue);
 
   & a {
@@ -41,15 +41,14 @@ a:any-link {
   color: var(--blue);
 }
 
-p,
-li {
+p {
   max-width: 60ch;
-  font-size: 1.3rem;
+  font-size: var(--size-3);
 }
 
 .page-title {
   margin-top: -7.1rem;
-  font-size: 36px;
+  font-size: var(--size-4);
   color: var(--white);
   isolation: isolate;
   margin-bottom: 3rem;
@@ -57,7 +56,7 @@ li {
 }
 
 .prose p:first-of-type::first-letter {
-  font-size: 62px;
+  font-size: var(--size-6);
   float: left;
   line-height: 1;
   padding-top: 12.8px;
