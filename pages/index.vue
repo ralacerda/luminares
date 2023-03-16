@@ -18,6 +18,6 @@
 
 <style>
 .index-intro {
-  margin-top: 3rem;
+  margin-top: var(--grid-margin);
 }
 </style>

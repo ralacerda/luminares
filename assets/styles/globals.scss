@@ -47,11 +47,11 @@ p {
 }
 
 .page-title {
-  margin-top: -7.1rem;
+  margin-top: var(--title-offset);
   font-size: var(--size-4);
   color: var(--white);
   isolation: isolate;
-  margin-bottom: 3rem;
+  margin-bottom: var(--grid-margin);
   padding-left: 1.1rem;
 }
 

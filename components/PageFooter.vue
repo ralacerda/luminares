@@ -61,8 +61,8 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
 footer {
   background-color: var(--black);
   color: var(--white);
-  padding-block: 3rem;
-  margin-top: 5vh;
+  padding-block: var(--grid-margin);
+  margin-top: var(--grid-margin);
   justify-items: start;
 
   & p {
