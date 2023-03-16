@@ -59,7 +59,14 @@ p {
   font-size: var(--size-6);
   float: left;
   line-height: 1;
-  padding-top: 0.21em;
+  padding-top: 0.02em;
   padding-right: 4px;
   color: var(--blue);
+}
+
+/* This is a css hack to target only Firefox */
+@-moz-document url-prefix() {
+  .prose p:first-of-type::first-letter {
+    padding-top: 0.21em;
+  }
 }
