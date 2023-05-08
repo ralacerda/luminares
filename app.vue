@@ -18,9 +18,9 @@ useServerSeoMeta({
   title: "Luminares Arq",
   ogTitle: "Luminares Arq",
   description:
-    "Este é o website de uma empresa fictícia de arquitetura chamada Luminares Arq.",
+    "This is the website of a fictional architecture company called Luminares Arq.",
   ogDescription:
-    "Este é o website de uma empresa fictícia de arquitetura chamada Luminares Arq.",
+    "This is the website of a fictional architecture company called Luminares Arq.",
   ogImage: "https://luminares-arq.netlify.app/meta.png",
   twitterCard: "summary_large_image",
 });
@@ -40,21 +40,21 @@ useServerSeoMeta({
     <div class="card" id="sobre" :data-page="page">
       <Transition name="fade">
         <NuxtLink class="grid-link" to="/sobre" v-show="page == 'index'"
-          >Sobre nós</NuxtLink
+          >About Us</NuxtLink
         >
       </Transition>
     </div>
     <div class="card" id="projetos" :data-page="page">
       <Transition name="fade">
         <NuxtLink class="grid-link" to="/projetos" v-show="page == 'index'"
-          >Projetos</NuxtLink
+          >Projects</NuxtLink
         >
       </Transition>
     </div>
     <div class="card" id="contato" :data-page="page">
       <Transition name="fade">
         <NuxtLink class="grid-link" to="/contato" v-show="page == 'index'"
-          >Contato</NuxtLink
+          >Contact</NuxtLink
         >
       </Transition>
     </div>

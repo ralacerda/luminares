@@ -1,5 +1,5 @@
 <template>
   <p>
-    <NuxtLink to="/">&larr; Voltar à página inicial</NuxtLink>
+    <NuxtLink to="/">&larr; Go Back</NuxtLink>
   </p>
 </template>

@@ -1,48 +1,45 @@
 <template>
   <div>
     <Head>
-      <Title>Luminares Arq - Projetos</Title>
+      <Title>Luminares Arq - Projects</Title>
     </Head>
     <div class="page-title">
-      <h2>Projetos</h2>
-      <p>Transformando espaços</p>
+      <h2>Projects</h2>
+      <p>Transforming spaces</p>
     </div>
 
     <div class="prose flow content">
       <div class="index">
-        <span> Lista de projetos </span>
+        <span>Featured Projects</span>
         <ul>
-          <li>Histórico-Moderno</li>
-          <li>Refúgio Urbano</li>
-          <li>Cúpula Urbana</li>
-          <li>Casa de Vidro</li>
+          <li>Historic-Modern</li>
+          <li>Urban Retreat</li>
+          <li>Urban Dome</li>
+          <li>Glass House</li>
           <li>Casa Serena</li>
-          <li>Espaço Vivo</li>
+          <li>Live Space</li>
         </ul>
       </div>
       <p>
-        <strong>Nossos projetos</strong> mais recentes e cativantes estão aqui
-        para lhe inspirar. Desde espaços residenciais até projetos comerciais,
-        cada um é minuciosamente elaborado para atender às necessidades e
-        expectativas únicas dos nossos clientes. Aqui, você encontrará soluções
-        de design inovadoras e personalizadas que refletem nossa paixão e
-        compromisso com a excelência.
+        <strong>Our latest and most captivating projects</strong> are here to
+        inspire you. From residential spaces to commercial projects, each one is
+        meticulously crafted to meet the unique needs and expectations of our
+        clients. Here, you'll find innovative and personalized design solutions
+        that reflect our passion and commitment to excellence.
+      </p>
+      <p>
+        In our portfolio, you'll find a wide variety of interior design and
+        architecture projects, from minimalist and modern environments to cozy
+        and traditional spaces.
+      </p>
+      <p>
+        We work closely with our clients throughout the design process to ensure
+        that each project is unique and meets their expectations. From the
+        selection of materials and finishes to the layout of the space, we're
+        always open to suggestions and feedback from our clients to ensure that
+        each project meets their needs and personal tastes.
       </p>
 
-      <p>
-        Em nosso portfólio, você encontrará uma ampla variedade de projetos de
-        design de interiores e arquitetura, desde ambientes minimalistas e
-        modernos até espaços acolhedores e tradicionais.
-      </p>
-
-      <p>
-        Nós trabalhamos em estreita colaboração com nossos clientes durante todo
-        o processo de design para garantir que cada projeto seja único e atenda
-        às suas expectativas. Desde a seleção de materiais e acabamentos até o
-        layout do espaço, estamos sempre abertos às sugestões e feedback de
-        nossos clientes para garantir que cada projeto atenda às suas
-        necessidades e gostos pessoais.
-      </p>
       <LinkHome />
     </div>
     <PageFooter />

@@ -9,15 +9,14 @@ import MastodonIcon from "~icons/simple-icons/mastodon";
   <footer>
     <div class="content flow">
       <p>
-        LUMINARES ARQ é uma empresa fictícia de arquitetura. O design e o
-        desenvolvimento deste site foram feitos com o intuito de mostrar a
-        capacidade e expertise em criar um site de alta qualidade e
-        funcionalidade. Todos os projetos e informações apresentados neste site
-        são puramente fictícios e não correspondem a uma empresa real. Todo o
-        conteúdo apresentado aqui é apenas para fins de ilustração e não deve
-        ser considerado como verdadeiro ou representativo de qualquer empresa
-        existente. Você pode ler mais sobre este projeto e seu desenvolvedor nos
-        links abaixo.
+        LUMINARES ARQ is a fictitious architecture company. The design and
+        development of this website were done with the intention of showcasing
+        the ability and expertise in creating a high-quality and functional
+        website. All projects and information presented on this website are
+        purely fictitious and do not correspond to a real company. All content
+        presented here is for illustration purposes only and should not be
+        considered true or representative of any existing company. You can read
+        more about this project and its developer in the links below.
       </p>
       <ul class="socials">
         <li>

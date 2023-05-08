@@ -1,38 +1,33 @@
 <template>
   <div>
     <Head>
-      <Title>Luminares Arq - Contato</Title>
+      <Title>Luminares Arq - Contact</Title>
     </Head>
     <div class="page-title">
-      <h2>Contato</h2>
-      <p>Vamos trabalhar juntos</p>
+      <h2>Contact</h2>
+      <p>Let's work together</p>
     </div>
     <div class="prose flow content">
       <p>
-        <strong>Há muitas maneiras </strong>de entrar em contato conosco. Para
-        fazer uma consulta, solicitar uma proposta ou obter mais informações
-        sobre nossos serviços, por favor, preencha o formulário abaixo.
+        <strong>There are</strong> many ways to get in touch with us. To make an
+        inquiry, request a proposal, or get more information about our services,
+        please fill out the form below.
       </p>
-
       <p>
-        Nossa equipe de especialistas em design de interiores e arquitetura está
-        pronta para ajudá-lo a criar um espaço personalizado e funcional que
-        atenda às suas necessidades e exceda suas expectativas. Nós valorizamos
-        a comunicação aberta e transparente e estamos comprometidos em fornecer
-        o melhor atendimento ao cliente possível.
+        Our team of interior design and architecture experts is ready to help
+        you create a customized and functional space that meets your needs and
+        exceeds your expectations. We value open and transparent communication
+        and are committed to providing the best possible customer service.
       </p>
-
       <p>
-        Se você tiver alguma dúvida ou precisar de assistência adicional, por
-        favor, não hesite em nos contatar por telefone ou e-mail. Estamos sempre
-        prontos para ajudar e estamos ansiosos para trabalhar com você em seu
-        próximo projeto.
+        If you have any questions or need further assistance, please do not
+        hesitate to contact us by phone or email. We are always ready to help
+        and look forward to working with you on your next project.
       </p>
-
       <p>
-        Não deixe de nos seguir nas redes sociais para ficar por dentro das
-        últimas tendências em design de interiores e arquitetura. Agradecemos
-        pelo seu interesse na Luminares e aguardamos sua mensagem.
+        Be sure to follow us on social media to stay up to date on the latest
+        trends in interior design and architecture. Thank you for your interest
+        in Luminares and we look forward to hearing from you.
       </p>
       <LinkHome />
     </div>

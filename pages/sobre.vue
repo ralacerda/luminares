@@ -1,50 +1,43 @@
 <template>
   <div>
     <Head>
-      <Title>Luminares Arq - Sobre nós</Title>
+      <Title>Luminares Arq - About Us</Title>
     </Head>
     <div class="page-title">
-      <h2>Sobre nós</h2>
-      <p>Paixão e expertise</p>
+      <h2>About us</h2>
+      <p>Passion and expertise</p>
     </div>
     <div class="prose flow content">
       <p>
-        <strong>Há mais</strong> de 10 anos, a Luminares tem se dedicado a criar
-        espaços inspiradores e funcionais para nossos clientes na área de
-        arquitetura. Oferecemos soluções de design personalizadas e confiáveis
-        que atendem às necessidades e expectativas únicas de cada cliente,
-        consolidando nossa presença no mercado.
+        <strong>For over 10 years</strong>, Luminares has been dedicated to
+        creating inspiring and functional spaces for our clients in the field of
+        architecture. We offer customized and reliable design solutions that
+        meet the unique needs and expectations of each client, consolidating our
+        presence in the market.
       </p>
-
       <p>
-        Nosso compromisso é entender a visão e os desejos de cada cliente e
-        trabalhar em estreita colaboração para criar um design que seja
-        verdadeiramente personalizado e reflita sua personalidade e estilo.
-        Valorizamos a comunicação aberta e transparente durante todo o processo
-        de design, garantindo que cada cliente esteja envolvido e informado em
-        todas as etapas do projeto.
+        Our commitment is to understand each client's vision and desires and
+        work closely to create a design that is truly personalized and reflects
+        their personality and style. We value open and transparent communication
+        throughout the entire design process, ensuring that each client is
+        involved and informed at every stage of the project.
       </p>
-
       <p>
-        Na Luminares, a diversidade é um valor fundamental. Nós acreditamos que
-        a diversidade é fundamental para criar espaços inclusivos e acessíveis,
-        e é por isso que trabalhamos para empregar uma equipe de profissionais
-        talentosos e diversos em nosso escritório.
+        At Luminares, diversity is a fundamental value. We believe that
+        diversity is essential to creating inclusive and accessible spaces,
+        which is why we strive to employ a team of talented and diverse
+        professionals in our office.
       </p>
-
       <p>
-        Acreditamos que a confiança é essencial para qualquer relacionamento de
-        sucesso, e é por isso que nossos clientes confiam em nós para entregar
-        resultados confiáveis e de alta qualidade. Nós nos esforçamos para ser
-        líderes criativos em nossa indústria e adotar uma abordagem inovadora
-        para cada projeto que realizamos.
+        We believe that trust is essential for any successful relationship,
+        which is why our clients trust us to deliver reliable and high-quality
+        results. We strive to be creative leaders in our industry and adopt an
+        innovative approach to every project we undertake.
       </p>
-
       <p>
-        Nosso objetivo é transformar a visão de nossos clientes em realidade e
-        criar espaços que excedam suas expectativas. Estamos animados para
-        trabalhar com você em seu próximo projeto de design e ajudá-lo a criar o
-        espaço dos seus sonhos.
+        Our goal is to turn our clients' vision into reality and create spaces
+        that exceed their expectations. We are excited to work with you on your
+        next design project and help you create the space of your dreams.
       </p>
       <LinkHome />
     </div>
