@@ -11,7 +11,7 @@ const pageKey = {
 };
 
 const page = computed(() => {
-  return pageKey[route.fullPath];
+  return pageKey[route.path];
 });
 
 useServerSeoMeta({
