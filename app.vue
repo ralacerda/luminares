@@ -153,15 +153,15 @@ header {
 @media screen and (max-width: 960px) {
   .card {
     &#aboutus {
-      --background-image: url("images/office2-small.webp");
+      --background-image: url("./images/office2-small.webp");
     }
 
     &#projects {
-      --background-image: url("images/bird-small.webp");
+      --background-image: url("./images/bird-small.webp");
     }
 
     &#contact {
-      --background-image: url("images/graydock-small.webp");
+      --background-image: url("./images/graydock-small.webp");
     }
   }
 }
@@ -169,15 +169,15 @@ header {
 @media screen and (min-width: 960px) {
   .card {
     &#aboutus {
-      --background-image: url("images/office2.webp");
+      --background-image: url("./images/office2.webp");
     }
 
     &#projects {
-      --background-image: url("images/bird.webp");
+      --background-image: url("./images/bird.webp");
     }
 
     &#contact {
-      --background-image: url("images/graydock.webp");
+      --background-image: url("./images/graydock.webp");
     }
   }
 }
