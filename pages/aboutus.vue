@@ -4,7 +4,7 @@
       <Title>Luminares Arq - About Us</Title>
     </Head>
     <div class="page-title">
-      <h2>About us</h2>
+      <h2>About Us</h2>
       <p>Passion and expertise</p>
     </div>
     <div class="prose flow content">

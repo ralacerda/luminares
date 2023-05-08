@@ -5,9 +5,9 @@ const route = useRoute();
 
 const pageKey = {
   "/": "index",
-  "/sobre": "sobre",
-  "/contato": "contato",
-  "/projetos": "projetos",
+  "/aboutus": "aboutus",
+  "/contact": "contact",
+  "/projects": "projects",
 };
 
 const page = computed(() => {
@@ -37,23 +37,23 @@ useServerSeoMeta({
     </h1>
   </header>
   <div class="grid" :data-page="page">
-    <div class="card" id="sobre" :data-page="page">
+    <div class="card" id="aboutus" :data-page="page">
       <Transition name="fade">
-        <NuxtLink class="grid-link" to="/sobre" v-show="page == 'index'"
+        <NuxtLink class="grid-link" to="/aboutus" v-show="page == 'index'"
           >About Us</NuxtLink
         >
       </Transition>
     </div>
-    <div class="card" id="projetos" :data-page="page">
+    <div class="card" id="projects" :data-page="page">
       <Transition name="fade">
-        <NuxtLink class="grid-link" to="/projetos" v-show="page == 'index'"
+        <NuxtLink class="grid-link" to="/projects" v-show="page == 'index'"
           >Projects</NuxtLink
         >
       </Transition>
     </div>
-    <div class="card" id="contato" :data-page="page">
+    <div class="card" id="contact" :data-page="page">
       <Transition name="fade">
-        <NuxtLink class="grid-link" to="/contato" v-show="page == 'index'"
+        <NuxtLink class="grid-link" to="/contact" v-show="page == 'index'"
           >Contact</NuxtLink
         >
       </Transition>
@@ -84,17 +84,17 @@ header {
   grid-template-rows: 5fr 4fr;
   background-color: var(--black);
 
-  &[data-page="sobre"] {
+  &[data-page="aboutus"] {
     grid-template-columns: 1fr 0fr;
     grid-template-rows: 1fr 0fr;
   }
 
-  &[data-page="projetos"] {
+  &[data-page="projects"] {
     grid-template-columns: 0fr 1fr;
     grid-template-rows: 1fr 0fr;
   }
 
-  &[data-page="contato"] {
+  &[data-page="contact"] {
     grid-template-columns: 1fr 0fr;
     grid-template-rows: 0fr 1fr;
   }
@@ -115,35 +115,35 @@ header {
     outline: 1px solid var(--outline-color);
   }
 
-  &#sobre {
+  &#aboutus {
     background-position: 65% 45%;
     background-image: linear-gradient(to top, #000000bb 30%, transparent 60%),
       var(--background-image);
 
-    &[data-page="sobre"] {
+    &[data-page="aboutus"] {
       outline-offset: var(--outline-offset);
       outline: 1px solid var(--outline-color);
     }
   }
 
-  &#projetos {
+  &#projects {
     grid-row: span 2;
     background-position: 30% 20%;
     background-image: linear-gradient(to top, #000000bb 10%, transparent 50%),
       var(--background-image);
 
-    &[data-page="projetos"] {
+    &[data-page="projects"] {
       outline-offset: -0.6rem;
       outline: 1px solid var(--outline-color);
     }
   }
 
-  &#contato {
+  &#contact {
     background-position: 30% 45%;
     background-image: linear-gradient(to top, #000000bb 15%, transparent 60%),
       var(--background-image);
 
-    &[data-page="contato"] {
+    &[data-page="contact"] {
       outline-offset: var(--outline-offset);
       outline: 1px solid #ffffff;
     }
@@ -152,15 +152,15 @@ header {
 
 @media screen and (max-width: 960px) {
   .card {
-    &#sobre {
+    &#aboutus {
       --background-image: url("images/office2-small.webp");
     }
 
-    &#projetos {
+    &#projects {
       --background-image: url("images/bird-small.webp");
     }
 
-    &#contato {
+    &#contact {
       --background-image: url("images/graydock-small.webp");
     }
   }
@@ -168,15 +168,15 @@ header {
 
 @media screen and (min-width: 960px) {
   .card {
-    &#sobre {
+    &#aboutus {
       --background-image: url("images/office2.webp");
     }
 
-    &#projetos {
+    &#projects {
       --background-image: url("images/bird.webp");
     }
 
-    &#contato {
+    &#contact {
       --background-image: url("images/graydock.webp");
     }
   }
@@ -201,23 +201,23 @@ header {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
-    &[data-page="sobre"] {
+    &[data-page="aboutus"] {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 0fr 0fr;
     }
 
-    &[data-page="projetos"] {
+    &[data-page="projects"] {
       grid-template-columns: 1fr;
       grid-template-rows: 0fr 1fr 0fr;
     }
 
-    &[data-page="contato"] {
+    &[data-page="contact"] {
       grid-template-columns: 1fr;
       grid-template-rows: 0fr 0fr 1fr;
     }
   }
 
-  .card#projetos {
+  .card#projects {
     grid-row: span 1;
   }
 }
