@@ -9,9 +9,10 @@
     </div>
     <div class="prose flow content">
       <p>
-        <strong>There are</strong> many ways to get in touch with us. To make an
-        inquiry, request a proposal, or get more information about our services,
-        please fill out the form below.
+        <strong>For those</strong> interested in making an inquiry, requesting a
+        proposal, or obtaining further information about our services, we offer
+        several avenues of contact. Please complete the form provided below to
+        get in touch with our team.
       </p>
       <p>
         Our team of interior design and architecture experts is ready to help
