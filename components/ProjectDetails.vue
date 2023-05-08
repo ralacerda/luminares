@@ -16,7 +16,7 @@ export default {
     v-bind="$attrs"
     class="project-header"
     :style="{
-      '--background-image': `url(${imageUrl})`,
+      '--background-image': `url(images/${imageUrl})`,
     }"
   >
     <h3 class="content">{{ title }}</h3>
