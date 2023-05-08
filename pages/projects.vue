@@ -40,7 +40,7 @@
 
       <ProjectDetails
         title="Historic-Modern"
-        imageUrl="images/historico-moderno.jpg"
+        imageUrl="images/historico-moderno.webp"
         id="historic-modern"
       >
         <p>
@@ -75,7 +75,7 @@
       </ProjectDetails>
       <ProjectDetails
         title="Urban Retreat"
-        imageUrl="images/urban-retreat.jpg"
+        imageUrl="images/urban-retreat.webp"
         id="urban-retreat"
       >
         <p>
@@ -114,7 +114,7 @@
       </ProjectDetails>
       <ProjectDetails
         title="Sunlit Tower"
-        imageUrl="images/sunlit-tower.jpg"
+        imageUrl="images/sunlit-tower.webp"
         id="suntlit-tower"
       >
         <p>
@@ -152,7 +152,7 @@
       </ProjectDetails>
       <ProjectDetails
         title="Casa Serena"
-        imageUrl="images/casa-serena.jpg"
+        imageUrl="images/casa-serena.webp"
         id="casa-serena"
       >
         <p>
