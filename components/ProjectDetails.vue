@@ -16,7 +16,7 @@ export default {
     v-bind="$attrs"
     class="project-header"
     :style="{
-      '--background-image': `url(images/${imageUrl})`,
+      '--background-image': `url(/images/${imageUrl})`,
     }"
   >
     <h3 class="content">{{ title }}</h3>
@@ -39,7 +39,7 @@ export default {
   aspect-ratio: 2.5;
   color: var(--white);
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   padding-bottom: 1rem;
   font-size: var(--size-5);
   border: 1px solid var(--black);
