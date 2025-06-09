@@ -8,16 +8,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/simple-icons": "^1.1.45",
-    "nuxt": "^3.2.3",
-    "postcss-html": "^1.5.0",
-    "stylelint": "^15.4.0",
-    "stylelint-config-recommended-scss": "^9.0.1",
-    "stylelint-config-recommended-vue": "^1.4.0",
-    "stylelint-config-standard-scss": "^7.0.1",
-    "unplugin-icons": "^0.15.3"
+    "@iconify-json/simple-icons": "^1.2.38",
+    "nuxt": "^3.17.5",
+    "postcss-html": "^1.8.0",
+    "stylelint": "^16.20.0",
+    "stylelint-config-recommended-scss": "^15.0.1",
+    "stylelint-config-recommended-vue": "^1.6.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "unplugin-icons": "^22.1.0"
   },
   "dependencies": {
-    "sass": "^1.58.3"
-  }
+    "sass": "^1.89.1"
+  },
+  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
 }
