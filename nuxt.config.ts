@@ -4,5 +4,5 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     head: { htmlAttrs: { lang: "en" } },
   },
-  modules: ["unplugin-icons/nuxt"],
+  modules: ["unplugin-icons/nuxt", "@nuxt/eslint"],
 });
