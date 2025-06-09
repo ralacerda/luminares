@@ -37,23 +37,23 @@ useServerSeoMeta({
     </h1>
   </header>
   <div class="grid" :data-page="page">
-    <div class="card" id="aboutus" :data-page="page">
+    <div id="aboutus" class="card" :data-page="page">
       <Transition name="fade">
-        <NuxtLink class="grid-link" to="/aboutus" v-show="page == 'index'"
+        <NuxtLink v-show="page == 'index'" class="grid-link" to="/aboutus"
           >About Us</NuxtLink
         >
       </Transition>
     </div>
-    <div class="card" id="projects" :data-page="page">
+    <div id="projects" class="card" :data-page="page">
       <Transition name="fade">
-        <NuxtLink class="grid-link" to="/projects" v-show="page == 'index'"
+        <NuxtLink v-show="page == 'index'" class="grid-link" to="/projects"
           >Projects</NuxtLink
         >
       </Transition>
     </div>
-    <div class="card" id="contact" :data-page="page">
+    <div id="contact" class="card" :data-page="page">
       <Transition name="fade">
-        <NuxtLink class="grid-link" to="/contact" v-show="page == 'index'"
+        <NuxtLink v-show="page == 'index'" class="grid-link" to="/contact"
           >Contact</NuxtLink
         >
       </Transition>

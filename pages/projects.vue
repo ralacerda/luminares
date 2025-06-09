@@ -39,9 +39,9 @@
       </p>
 
       <ProjectDetails
-        title="Historic-Modern"
-        imageUrl="historico-moderno.webp"
         id="historic-modern"
+        title="Historic-Modern"
+        image-url="historico-moderno.webp"
       >
         <p>
           <strong>Crafting the </strong>Historic-Modern project was a unique
@@ -74,9 +74,9 @@
         </p>
       </ProjectDetails>
       <ProjectDetails
-        title="Urban Retreat"
-        imageUrl="urban-retreat.webp"
         id="urban-retreat"
+        title="Urban Retreat"
+        image-url="urban-retreat.webp"
       >
         <p>
           <strong>For Luminares Arq</strong>, the Urban Retreat project was a
@@ -113,9 +113,9 @@
         </p>
       </ProjectDetails>
       <ProjectDetails
-        title="Sunlit Tower"
-        imageUrl="sunlit-tower.webp"
         id="suntlit-tower"
+        title="Sunlit Tower"
+        image-url="sunlit-tower.webp"
       >
         <p>
           <strong>The Sunlit Tower project </strong>was a remarkable undertaking
@@ -151,9 +151,9 @@
         </p>
       </ProjectDetails>
       <ProjectDetails
-        title="Casa Serena"
-        imageUrl="casa-serena.webp"
         id="casa-serena"
+        title="Casa Serena"
+        image-url="casa-serena.webp"
       >
         <p>
           <strong>Casa Serena is a </strong>residential project that is
